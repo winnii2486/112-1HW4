@@ -5,29 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .mean {
+        .menu{
             float: left;
             background-color: #FF0000;
             min-width: 30%;
             border: 1px solid blue;
+            box-sizing: border-box;
         }
-
-        .contentContainer {
+        .contentContainer{
             float: right;
             background-color: #00FFFF;
-            min-width: 70%;
+            min-width: 50%;
             border: 1px solid blue;
+            box-sizing: border-box;
+        }
+        .functionContainer{
+            float: right;
+            background-color: #00FFFF;
+            min-width: 20%;
+            border: 1px solid blue;
+            box-sizing: border-box;
         }
     </style>
 </head>
 <body>
-    <div class="mean">
+    <div class="menu">
         <ul>
             <li>連結1</li>
             <li>連結2</li>
         </ul>
     </div>
+    
     <div class="contentContainer">
+        內容區塊
+    </div>
+    <div class="functionContainer">
         內容區塊
     </div>
 </body>
